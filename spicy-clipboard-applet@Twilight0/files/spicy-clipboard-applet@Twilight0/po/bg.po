@@ -1,0 +1,265 @@
+# SPICY CLIPBOARD MANAGER
+# This file is put in the public domain.
+# Twilight0, 2026
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: spicy-clipboard-applet@Twilight0 1.0\n"
+"Report-Msgid-Bugs-To: https://github.com/linuxmint/cinnamon-spices-applets/"
+"issues\n"
+"POT-Creation-Date: 2026-11-23 20:58+0200\n"
+"PO-Revision-Date: 2026-11-23 20:58+0200\n"
+"Last-Translator: Salif Mehmed <mail@salif.eu>\n"
+"Language-Team: none\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. metadata.json->name
+#. applet.js:54
+msgid "Spicy Clipboard Manager"
+msgstr "Spicy Мениджър на буфера за обмен"
+
+#. applet.js:198
+msgid "[Image Copied]"
+msgstr "[Копирано изображение]"
+
+#. applet.js:199
+msgid "Clipboard Copied"
+msgstr "Копирано в буфера за обмен"
+
+#. settings-schema.json->leftClickAction->options
+#. settings-schema.json->middleClickAction->options
+#. settings-schema.json->rightClickAction->options
+#. applet.js:291
+msgid "Select (Copy/Paste)"
+msgstr "Избиране (копиране/поставяне)"
+
+#. settings-schema.json->leftClickAction->options
+#. settings-schema.json->middleClickAction->options
+#. settings-schema.json->rightClickAction->options
+#. applet.js:292
+msgid "Edit Item"
+msgstr "Редактиране на елемента"
+
+#. settings-schema.json->leftClickAction->options
+#. settings-schema.json->middleClickAction->options
+#. settings-schema.json->rightClickAction->options
+#. applet.js:293
+msgid "Delete Item"
+msgstr "Изтриване на елемента"
+
+#. settings-schema.json->leftClickAction->options
+#. settings-schema.json->middleClickAction->options
+#. settings-schema.json->rightClickAction->options
+#. applet.js:294
+msgid "None"
+msgstr "Без действие"
+
+#. applet.js:297
+msgid "Left-Click: "
+msgstr "Ляв бутон: "
+
+#. applet.js:298
+msgid "Middle-Click: "
+msgstr "Среден бутон: "
+
+#. applet.js:299
+msgid "Right-Click: "
+msgstr "Десен бутон: "
+
+#. applet.js:303
+msgid "Clipboard History"
+msgstr "История на буфера за обмен"
+
+#. applet.js:314
+msgid "Clipboard is empty"
+msgstr "Буферът за обмен е празен"
+
+#. applet.js:326
+msgid "[Image Preview] ("
+msgstr "[Преглед на изображение] ("
+
+#. applet.js:344 applet.js:627 applet.js:757
+msgid "Edit Clipboard Item"
+msgstr "Редактиране на елемент от буфера за обмен"
+
+#. applet.js:345 applet.js:758
+msgid "Image entries cannot be edited."
+msgstr "Записите с изображения не могат да се редактират."
+
+#. applet.js:371
+msgid "Image File: "
+msgstr "Файл с изображение: "
+
+#. applet.js:442
+msgid "Clear History"
+msgstr "Изчистване на историята"
+
+#. applet.js:519 applet.js:543
+msgid "Clipboard Error"
+msgstr "Грешка в буфера за обмен"
+
+#. applet.js:519
+msgid ""
+"xdotool is not installed. Please install it or select another paste tool in "
+"settings."
+msgstr ""
+"xdotool не е инсталиран. Моля, инсталирайте го или изберете друг инструмент "
+"за поставяне в настройките."
+
+#. applet.js:543
+msgid ""
+"dotool is not installed. Please install it or select another paste tool in "
+"settings."
+msgstr ""
+"dotool не е инсталиран. Моля, инсталирайте го или изберете друг инструмент "
+"за поставяне в настройките."
+
+#. applet.js:692 applet.js:703
+msgid "Manage Clipboard History"
+msgstr "Управление на историята на буфера за обмен"
+
+#. applet.js:693
+msgid "Clipboard history is empty."
+msgstr "Историята на буфера за обмен е празна."
+
+#. applet.js:704
+msgid "Select an item to edit:"
+msgstr "Изберете елемент за редактиране:"
+
+#. applet.js:725
+msgid "[Image] ("
+msgstr "[Изображение] ("
+
+#. metadata.json->description
+msgid ""
+"A lightweight clipboard history manager applet for Cinnamon. Works on both "
+"X11 and Wayland. Requires yad (for history management/editing), xclip (for "
+"X11/image support), or dotool (for Wayland auto-paste support)."
+msgstr ""
+"Лек аплет за управление на историята на буфера за обмен за Cinnamon. Работи "
+"както под X11, така и под Wayland. Изисква yad (за управление и редактиране "
+"на историята), xclip (за поддръжка на X11 и изображения) или dotool (за "
+"поддръжка на автоматично поставяне под Wayland)."
+
+#. settings-schema.json->main-section->description
+msgid "General Settings"
+msgstr "Общи настройки"
+
+#. settings-schema.json->historySize->units
+msgid "items"
+msgstr "елемента"
+
+#. settings-schema.json->historySize->description
+msgid "Clipboard History Size"
+msgstr "Размер на историята на буфера за обмен"
+
+#. settings-schema.json->historySize->tooltip
+msgid "Number of copied items to store in history."
+msgstr "Брой копирани елементи, които да се съхраняват в историята."
+
+#. settings-schema.json->autoPaste->description
+msgid "Auto-Paste on Selection"
+msgstr "Автоматично поставяне при избиране"
+
+#. settings-schema.json->autoPaste->tooltip
+msgid ""
+"Automatically paste the selected item into the active window when clicked."
+msgstr "Автоматично поставя избрания елемент в активния прозорец при щракване."
+
+#. settings-schema.json->pasteTool->options
+msgid "xdotool (X11)"
+msgstr "xdotool (X11)"
+
+#. settings-schema.json->pasteTool->options
+msgid "dotool (Wayland)"
+msgstr "dotool (Wayland)"
+
+#. settings-schema.json->pasteTool->options
+msgid "None (Copy Only)"
+msgstr "Няма (само копиране)"
+
+#. settings-schema.json->pasteTool->description
+msgid "Input Simulation Tool"
+msgstr "Инструмент за симулиране на въвеждане"
+
+#. settings-schema.json->pasteTool->tooltip
+msgid "Select the tool used to simulate the Ctrl+V paste shortcut."
+msgstr ""
+"Изберете инструмента, използван за симулиране на клавишната комбинация "
+"Ctrl+V за поставяне."
+
+#. settings-schema.json->notifyOnCopy->description
+msgid "Notification on Copy"
+msgstr "Известие при копиране"
+
+#. settings-schema.json->notifyOnCopy->tooltip
+msgid "Show a desktop notification when a new item is captured."
+msgstr "Показва известие на работния плот при улавяне на нов елемент."
+
+#. settings-schema.json->menuMaxHeight->units
+msgid "pixels"
+msgstr "пиксела"
+
+#. settings-schema.json->menuMaxHeight->description
+msgid "Menu Max Height"
+msgstr "Максимална височина на менюто"
+
+#. settings-schema.json->menuMaxHeight->tooltip
+msgid ""
+"The maximum height (in pixels) of the clipboard history dropdown list before "
+"it starts scrolling."
+msgstr ""
+"Максималната височина (в пиксели) на падащия списък с историята на буфера за "
+"обмен, преди да започне да се превърта."
+
+#. settings-schema.json->mouse-section->description
+msgid "Mouse Clicks Configuration"
+msgstr "Настройка на бутоните на мишката"
+
+#. settings-schema.json->leftClickAction->description
+msgid "Left-Click Action"
+msgstr "Действие при щракване с левия бутон"
+
+#. settings-schema.json->leftClickAction->tooltip
+msgid "Action performed when left-clicking a history item."
+msgstr ""
+"Действие, изпълнявано при щракване с левия бутон върху елемент от историята."
+
+#. settings-schema.json->middleClickAction->description
+msgid "Middle-Click Action"
+msgstr "Действие при щракване със средния бутон"
+
+#. settings-schema.json->middleClickAction->tooltip
+msgid "Action performed when middle-clicking a history item."
+msgstr ""
+"Действие, изпълнявано при щракване със средния бутон върху елемент от "
+"историята."
+
+#. settings-schema.json->rightClickAction->description
+msgid "Right-Click Action"
+msgstr "Действие при щракване с десния бутон"
+
+#. settings-schema.json->rightClickAction->tooltip
+msgid "Action performed when right-clicking a history item."
+msgstr ""
+"Действие, изпълнявано при щракване с десния бутон върху елемент от историята."
+
+#. settings-schema.json->history-manager-section->description
+msgid "History Manager"
+msgstr "Управление на историята"
+
+#. settings-schema.json->editHistoryButton->description
+msgid "Edit History Items (YAD)"
+msgstr "Редактиране на елементи от историята (YAD)"
+
+#. settings-schema.json->editHistoryButton->tooltip
+msgid ""
+"Click to launch a dialog allowing you to view and edit any text item in the "
+"history."
+msgstr ""
+"Щракнете, за да отворите диалогов прозорец, позволяващ преглед и редактиране "
+"на всеки текстов елемент в историята."
